@@ -1,7 +1,7 @@
 package firstProgram;
 
 import firstProgram.namaKu;
-
+import contoh.bedaPackage;
 public class fungsi {
     public static void  main (String []args) {
         int x = 10;
@@ -9,6 +9,7 @@ public class fungsi {
         int z = 5;
 
         namaKu.nama("Rahmani");
+        bedaPackage.bedaPackage("Budi");
 
         tambah(x,y);
         tambah(y,z);
